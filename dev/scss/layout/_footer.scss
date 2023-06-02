@@ -2,44 +2,50 @@
     Footer
 ============= */
 
-.footer-titles{
+.footer-titles {
     border-bottom: 1px solid black;
     font-size: 18px;
-}
-
-.textplace{
-    width: 243px;
-    height: 339px;
-    font-size: 15px;
-    line-height: 28px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background-color: $foam;
-    padding: 0px;
-    gap: 240px;
-    width: 1209px;
-    height: 436px;
-    left: 0px;
-    top: 0px;
-}
-
-.background{
-    background-color: $foam;
-}
-
-.body{
-@include md {
-    grid-template-columns: repeat(2, 320px);
-    gap: 2%; 
-    padding-bottom: 55px;
- }
-
- @include lg {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2%;
-    padding-bottom: 55px;
- }
-}
+  }
+  
+  .footer-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+  }
+  
+  .full-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    padding: 0px; 
+    list-style-type: none;
+  }
+  
+  li p{
+    margin: 0px !important;
+  }
+  
+  .social-media-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .horizonal-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .underline {
+    border-bottom: 1px solid black;
+  }
