@@ -30,6 +30,7 @@
     background-color: $foam;
 }
 
+.body{
 @include md {
     grid-template-columns: repeat(2, 320px);
     gap: 2%; 
@@ -41,3 +42,4 @@
     gap: 2%;
     padding-bottom: 55px;
  }
+}

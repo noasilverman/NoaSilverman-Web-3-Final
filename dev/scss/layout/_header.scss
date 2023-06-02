@@ -2,3 +2,15 @@
     Header
 ============= */
 
+header {
+    .header-grid {
+        display: grid;
+        grid-template-columns: 40% 40% 20%;
+
+
+        .desktop-nav {
+            display: grid;
+            grid-template-columns: lfr 1fr 1fr 1fr;
+        }
+    }
+}
