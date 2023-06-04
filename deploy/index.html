@@ -18,9 +18,15 @@
 
 
   <!--Header-->
-  <header class="header-grid">
-    <div>
-      <ul class="desktop-nav">
+  <header class="header-grid" style="
+  height: 50px;
+  background-color: black;
+">
+    <div style="
+    display: grid;
+    grid-template-columns: 50% 40% 10%;
+">
+      <ul class="desktop-nav" style="display: grid;grid-template-columns: 25% 25% 25% 25%;">
         <li>
           <a href=#>Product</a>
         </li>
@@ -133,11 +139,17 @@
 
   <section class="specs">
     <div>
+      <h1>Other Specs</h1>
+    </div>
+    <div style="
+    display: grid;
+    grid-template-columns: 50% 50%;
+">
       <div>
-        <h1>Other Specs</h1>
-      </div>
-      <div>
-        <div class="specs-info">
+        <div class="specs-info" style="
+        display: grid;
+        grid-template-columns: 50% 50%;
+    ">
           <div>
             <div>
               <p>Product Weight</p>
@@ -197,7 +209,9 @@
         </div>
       </div>
       <div>
-        <img class="large-images" src="./img/action.png" alt="infovideo" />
+        <img src="./img/action.png" alt="infovideo" style="
+        width: 521px;
+    "/>
       </div>
     </div>
   </section>
