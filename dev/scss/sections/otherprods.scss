@@ -1,4 +1,48 @@
 /* =============
-    Footer
+   Other Prods
 ============= */
 
+.other-section {
+    border-bottom: 1px solid orange;
+    border-right: 1px solid orange;
+    border-top: 1px solid orange;
+    background-color: grey;
+  }
+  
+  .other-products-title {
+    padding-top:50px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+  }
+  
+  .other-products-container {
+    padding: 50px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "one two three"
+    "one four three"
+  }
+  
+  .other-1 {
+    grid-area: one;
+  }
+  
+  .other-2 {
+    grid-area: two;
+  }
+  
+  .other-3 {
+    grid-area: three;
+  }
+  
+  .other-4 {
+    grid-area: four;
+  }
+  
+  .other-img-size {
+    width: 100%;
+    height: 100%;
+  }

@@ -455,8 +455,51 @@ li p {
 }
 
 /* =============
-    Footer
+   Other Prods
 ============= */
+.other-section {
+  border-bottom: 1px solid orange;
+  border-right: 1px solid orange;
+  border-top: 1px solid orange;
+  background-color: grey;
+}
+
+.other-products-title {
+  padding-top: 50px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+
+.other-products-container {
+  padding: 50px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "one two three" "one four three";
+}
+
+.other-1 {
+  grid-area: one;
+}
+
+.other-2 {
+  grid-area: two;
+}
+
+.other-3 {
+  grid-area: three;
+}
+
+.other-4 {
+  grid-area: four;
+}
+
+.other-img-size {
+  width: 100%;
+  height: 100%;
+}
+
 /* =============
     Specs
 ============= */
@@ -543,7 +586,59 @@ li p {
 /* =============
     Gallery
 ============= */
-.gallery-grid {
+.gallery-section {
+  background-color: black;
+}
+
+.gallery-title {
+  margin: 0px;
+  padding-top: 20px;
+  padding-left: 20vw;
+  color: white;
+}
+
+.gallery-title span {
+  border-bottom: 1px solid white;
+}
+
+.gallery-container {
+  padding: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas: "one one one two two two" "three three four four five five" "six six six seven seven seven";
+}
+
+.gallery-img-size {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-1 {
+  grid-area: one;
+}
+
+.gallery-2 {
+  grid-area: two;
+}
+
+.gallery-3 {
+  grid-area: three;
+}
+
+.gallery-4 {
+  grid-area: four;
+}
+
+.gallery-5 {
+  grid-area: five;
+}
+
+.gallery-6 {
+  grid-area: six;
+}
+
+.gallery-7 {
+  grid-area: seven;
 }
