@@ -1,4 +1,12 @@
 /* =============
-    Footer
+    Specs
 ============= */
 
+.specs-grid {
+    grid-template-columns: 50% 50%;
+    display: grid;
+}
+
+.specs-image-size {
+    width: 558px
+}

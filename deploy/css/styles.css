@@ -386,14 +386,21 @@ textarea {
 /* =============
     Header
 ============= */
-header .header-grid {
+.header-grid {
   grid-template-columns: 50% 40% 10%;
   display: grid;
   background-color: black;
+  height: 60px;
 }
-header .header-grid .desktop-nav {
+
+.desktop-nav {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-columns: 50% 50%;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 /* =============
@@ -451,8 +458,17 @@ li p {
     Footer
 ============= */
 /* =============
-    Footer
+    Specs
 ============= */
+.specs-grid {
+  grid-template-columns: 50% 50%;
+  display: grid;
+}
+
+.specs-image-size {
+  width: 558px;
+}
+
 /* =============
     Footer
 ============= */
@@ -527,46 +543,7 @@ li p {
 /* =============
     Gallery
 ============= */
-.gallery ul {
-  list-style: none;
-  padding: 0;
-}
-@media (min-width: 768px) {
-  .gallery ul {
-    display: grid;
-    grid-template-columns: 1fr auto;
-  }
-}
-@media (min-width: 992px) {
-  .gallery ul {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    padding: 15px 15px 15px;
-  }
-}
-@media (min-width: 1200px) {
-  .gallery ul {
-    grid-template-areas: "g1 g2" "g1 g3";
-    padding: 20px 15px 20px;
-  }
-}
-
-@media (min-width: 1200px) {
-  li.img-1 {
-    grid-area: "g1";
-  }
-}
-@media (min-width: 1200px) {
-  li.img-2 {
-    grid-area: "g2";
-  }
-}
-li.img-3 {
-  display: none;
-}
-@media (min-width: 1200px) {
-  li.img-3 {
-    grid-area: "g3";
-    display: block;
-  }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

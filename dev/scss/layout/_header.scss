@@ -2,16 +2,19 @@
     Header
 ============= */
 
-header {
-    .header-grid {
-        grid-template-columns: 50% 40% 10%;
+.header-grid {
+    grid-template-columns: 50% 40% 10%;
     display: grid;
     background-color: black;
+    height: 60px;
+}
 
+.desktop-nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
-        .desktop-nav {
-            display: grid;
-      grid-template-columns: 20% 20% 20% 20%;
-        }
-    }
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
