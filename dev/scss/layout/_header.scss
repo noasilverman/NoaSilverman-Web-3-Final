@@ -9,12 +9,16 @@
     height: 60px;
 }
 
-.desktop-nav {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
 .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    background-color: #2596be;
+}
+
+.header-icons {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
