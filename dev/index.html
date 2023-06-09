@@ -13,13 +13,10 @@
 </head>
 
 <body>
-
   <script src="../js/scripts-min.js"></script>
-
-
   <!--Header-->
-  <header >
-    <div class= "header-grid">
+  <header>
+    <div class="header-grid">
       <ul class="icons">
         <li>
           <a href=#>Product</a>
@@ -34,8 +31,13 @@
           <a href=#>Reviews</a>
         </li>
       </ul>
-      <div>
-        <form actions="#"><input type="Search" placeholder="#"><button class="button">Search</button></form>
+      <div class="search-bar">
+        <div class="search-input">
+          <input type="Search" placeholder="Search">
+        </div>
+        <div class="search-button">
+          <button>Search</button>
+        </div>
       </div>
       <ul class="header-icons">
         <li>
@@ -45,33 +47,36 @@
           <img src="./img/bag.png" alt="Profile" />
         </li>
       </ul>
+      <div class="hamburger-menu">
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </div>
   </header>
 
   <!--Hero-->
-
   <section class="hero">
     <div class="hero-background">
+      <img style="position:absolute;right:0px;" src="./img/logo.png" alt="logo" />
       <div class="shark">
         <h1>Shark</h1>
       </div>
-      <div>
-        <img src="./img/logo.png" alt="logo" />
-      </div>
-      <div class="hero-intro">
-        <p>Featuring the technology of tomorrow, the Shark Stratos™ Cordless goes beyond cleaning up everyday messes
-          like leftover crumbs and dried mud with Clean Sense IQ technology and the strongest suction of any Shark®
-          cordless vacuum.
-        </p>
-      </div>
-      <div>
-        <img src="./img/Rectangle 2.png" alt="logo" />
-      </div>
-      <div>
-        <img src="./img/hero.png" alt="hero" />
-      </div>
-      <div>
-        <a href=#>Shark Stratos</a>
+      <div class="hero-container" style="background-image: url(./img/hero.png);background-repeat: no-repeat;">
+        <div >
+          <div class="hero-intro">
+            <p>Featuring the technology of tomorrow, the Shark Stratos™ Cordless goes beyond cleaning up everyday messes
+              like leftover crumbs and dried mud with Clean Sense IQ technology and the strongest suction of any Shark®
+              cordless vacuum.
+            </p>
+          </div>
+          <img class="youtube-vid" src="./img/Rectangle 2.png" alt="logo" />
+        </div>
+        <div class="full-center">
+          <a class="button-hero" href=#>Shark Stratos</a>
+        </div>
       </div>
     </div>
   </section>
@@ -79,128 +84,142 @@
   <!--Products-->
 
   <section class="prods">
-    <div class= "prods-background">
-      <div>
-        <div>
-          <img src="./img/product.png" alt="product image 1" />
+    <div class="prods-background">
+      <div class="prods-images">
+        <div class="prod-1">
+          <img class="prod-img-size" src="./img/product.png" alt="product image 1" />
         </div>
-        <div>
-          <img src="./img/vacuum.png" alt="product image 2" />
+        <div class="prod-3">
+          <img class="prod-img-size" src="./img/vacuum.png" alt="product image 2" />
         </div>
-        <div>
-          <img src="./img/Rectangle 2.png" alt="video" />
+        <div class="prod-2">
+          <img class="prod-img-size" src="./img/Rectangle 2.png" alt="video" />
         </div>
       </div>
-    <div>
-      <div>
+      <div class="prods-info">
+        
         <div>
           <h1>The Most Powerful Shark!</h1>
         </div>
-        <h2>Your Order Includes</h2>
+        <div>
+          <h2>Your Order Includes</h2>
+        </div>
+        <div>
+          <div class="prods-list">
+            <ul>
+              <li>
+                90-Day Money Back Guarantee
+              </li>
+              <li>
+                <p>Year VIP Warranty</p>
+              </li>
+              <li>
+                <p>AirPro™ Self-Cleaning Pet</p>
+              </li>
+              <li>
+                <p>Power Brush</p>
+              </li>
+              <li>
+                <p>Sister Crevice Tool</p>
+              </li>
+              <li>
+                <p>Multi-Angle Dust Brush</p>
+              </li>
+              <li>
+                <p>Anti-Allergen Dust Brush</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2>$499.80</h2>
+        </div>
+        <div>
+          <a class="prods-button" href="#">Add to Cart</a>
+        </div>
       </div>
-      <div>
-        <ul>
-          <li>
-            90-Day Money Back Guarantee
-          </li>
-          <li>
-            <p>Year VIP Warranty</p>
-          </li>
-          <li>
-            <p>AirPro™ Self-Cleaning Pet</p>
-          </li>
-          <li>
-            <p>Power Brush</p>
-          </li>
-          <li>
-            <p>Sister Crevice Tool</p>
-          </li>
-          <li>
-            <p>Multi-Angle Dust Brush</p>
-          </li>
-          <li>
-            <p>Anti-Allergen Dust Brush</p>
-          </li>
-        </ul>
-      </div>
-      <h2>$499.80</h2>
-      <a href="#">Add to Cart</a>
     </div>
-  </div>
   </section>
 
   <!--Specs-->
 
   <section class="specs">
+    <div class="specs-grid">
       <div>
-        <h1>Other Specs</h1>
-      </div>
-      <div class="specs-grid">
-        <div>
-        <div class="specs-info" style="
-        display: grid;
-        grid-template-columns: 50% 50%;
-    ">
-          <div>
+        <div class="full-center">
+          <h1>Other Specs</h1>
+        </div>
+        <ul class="specs-info">
+          <li>
             <div>
-              <p>Product Weight</p>
+              <b>Product Weight</b>
             </div>
             <div>
-              <p>Compatible Floortype</p>
+              17.2lbs
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Compatible Floortype</b>
             </div>
             <div>
-              <p>Wattage</p>
+              All Floors
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Wattage</b>
             </div>
             <div>
-              <p>Filter Type</p>
+              1416 Watts
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Filter Type</b>
             </div>
             <div>
-              <p>Multisurface</p>
+              HEPA
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Multisurface</b>
             </div>
             <div>
-              <p>Washable Filter</p>
+              Yes
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Washable Filter</b>
             </div>
             <div>
-              <p>Atachments Included</p>
+              Yes
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Atachments Included</b>
             </div>
             <div>
-              <p>Manufacturer's Warranty -Parts</p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <p>17.2lbs</p>
-            </div>
-            <div>
-              <p>All Floors</p>
-            </div>
-            <div>
-              <p>1416 Watts</p>
-            </div>
-            <div>
-              <p>HEPA</p>
-            </div>
-            <div>
-              <p>Yes</p>
-            </div>
-            <div>
-              <p>Yes</p>
-            </div>
-            <div>
-              <p>Crevic Tool, Upholstery Tool,
+              Crevic Tool, Upholstery Tool,
                 HairPro Self-cleaning Pet Power Brush,
-                Odor Neutralizer Technology CartridgeUpholstery Tool,
-                HairPro Self-cleaning Pet Power Brush,
-                Odor Neutralizer Technology Cartridge.</p>
+                Odor Neutralizer Technology Cartridge
+            </div>
+          </li>
+          <li>
+            <div>
+              <b>Manufacturer's Warranty -Parts</b>
             </div>
             <div>
               5 Year
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
-      <div>
-        <img class="specs-image-size" src= "./img/action.png" alt="infovideo" />
+      <div class="full-center">
+        <img class="specs-image-size" src="./img/action.png" alt="infovideo" />
       </div>
     </div>
   </section>
@@ -256,12 +275,15 @@
   </section>
 
   <!--Reviews-->
-  <Section>
+  <Section class="footer-background">
     <div>
-      <div>
-        <h3>Reviews:</h3>
+      <div class="full-center">
+        <h1>
+          Reviews:
+        </h3>
       </div>
       <div class="review-container">
+
         <div class="full-center">
           <img class="user-img" src="./img/User.png" alt="user" />
         </div>
@@ -292,7 +314,7 @@
 
   <!--Footer-->
 
-  <footer class="footer-container">
+  <footer class="footer-container footer-background">
     <div class="footer-sections">
       <ul>
         <li>

@@ -2,11 +2,71 @@
     Specs
 ============= */
 
-.specs-grid {
+.specs {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .specs-info {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .specs-info li {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+  
+    @media only screen and (max-width: 700px){
+      grid-template-columns: 100%;
+    }
+  }
+  
+  .specs-grid {
     grid-template-columns: 50% 50%;
     display: grid;
-}
+    @media only screen and (max-width: 700px){
+      grid-template-columns: 100%;
+    }
+  }
+  
+  .specs-image-size {
+    width: 90%;
+    height: 100%;
+    margin-top: 30px;
+  }
 
-.specs-image-size {
-    width: 558px
-}
+  
+
+/* =============
+    Footer
+============= */
+.footer-background {
+    background-color: cadetblue;
+    color: white;
+  }
+  
+  .user-img {
+    border: 1px solid black;
+    width: 50px;
+  }
+  
+  .review-container {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .single-review {
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 0px 25px 25px 0px;
+  }
+  
+ 
+ 

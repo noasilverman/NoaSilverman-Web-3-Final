@@ -10,7 +10,7 @@
   }
   
   .other-products-title {
-    padding-top:50px;
+    padding-top: 50px;
     margin: 0px;
     text-align: center;
     color: white;
@@ -21,9 +21,7 @@
     gap: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-    "one two three"
-    "one four three"
+    grid-template-areas: "one two three" "one four three";
   }
   
   .other-1 {
