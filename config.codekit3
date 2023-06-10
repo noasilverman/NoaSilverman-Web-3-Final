@@ -1182,6 +1182,33 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/checkout.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/checkout-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/checkout.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/checkout.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/gallery.scss" : {
       "aP" : 0,
       "bl" : 0,

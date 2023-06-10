@@ -857,3 +857,16 @@ li p {
 .gallery-7 {
   grid-area: seven;
 }
+
+/* =============
+    Footer
+============= */
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #0b2d39;
+}
+
+.checkout-color {
+  color: white;
+}

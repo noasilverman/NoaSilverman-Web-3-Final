@@ -1,0 +1,12 @@
+/* =============
+    Footer
+============= */
+
+.checkout-grid {
+  display:grid;
+  grid-template-columns: 50%  50%;
+  background-color: $greenblue;
+}
+.checkout-color {
+  color: white;
+}

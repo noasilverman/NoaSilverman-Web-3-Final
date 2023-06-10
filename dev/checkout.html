@@ -1,109 +1,113 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Starting Template</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Starting Template</title>
+</head>
 
-  <body>
+<body>
 
-    <h1>Hello Mars!</h1> 
+  <script src="../js/scripts-min.js"></script>
 
-    <script src="../js/scripts-min.js"></script>
+
+  <!--Shipping Info-->
+
+
+  <section class="checkout checkout-color">
+   <div class="checkout-grid">
+       <div>
+         <div>
+           <h1>Shipping Information</h1>
+         </div>
+         <div>
+           <form actions="#"><input type="First-and-Last" placeholder="#"><button>First and Last Name</button></form>
+         </div>
+         <div>
+           <form actions="#"><input type="Email" placeholder="#"><button>Email</button></form>
+         </div>
+         <div>
+           <form actions="#"><input type="Address" placeholder="#"><button>Address</button></form>
+         </div>
+         <div>
+           <form actions="#"><input type="Zipcode/City" placeholder="#"><button>Zipcode/City</button></form>
+         </div>
+         <div>
+           <a href=#>Submit</a>
+         </div>
+       </div>
+    
+    <!--Overview-->
+    
+     <div>
+       <div>
+         <h1>Overview:</h1>
+       </div>
+       <div>
+         <ul>
+           <li>
+             Shark® Stratos™ Upright Vacuum with TruePet® upgrade
+           </li>
+         </ul>
+    
+         <img src="../img/Vector.png" alt="pencil" />
+    
+         <div class="checkout-grid">
+          <ul>
+            <li>
+              Subtotal:
+            </li>
+            <li>
+              Taxes:
+            </li>
+            <li>
+              Shipping:
+            </li>
+            <li>
+              Total:
+            </li>
+          </ul>
+          <ul>
+            <li>
+              $499.80
+            </li>
+            <li>
+              $0.00
+            </li>
+            <li>
+              $0.00
+            </li>
+            <li>
+              $499.80
+            </li>
+          </ul>
+         </div>
+       </div>
+     </div>
+   </div>
   
 
-<!--Shipping Info-->
 
-<section>
-<div>
-  <div>
-    <h1>Shipping Information</h1>
-  </div>
-  <div>
-    <form actions="#"><input type="First-and-Last" placeholder="#"><button>First and Last Name</button></form>
-  </div>
-  <div>
-    <form actions="#"><input type="Email" placeholder="#"><button>Email</button></form>
-  </div>
-  <div>
-    <form actions="#"><input type="Address" placeholder="#"><button>Address</button></form>
-  </div>
-  <div>
-    <form actions="#"><input type="Zipcode/City" placeholder="#"><button>Zipcode/City</button></form>
-  </div>
-  <div>
-    <a href=#>Submit</a>
-  </div>
-</div>
-</section>
+  <!--Footer-->
 
-<!--Overview-->
-<section>
-<div>
-  <div>
-    <h1>Overview:</h1>
-  </div>
- <div>
-   <ul>
-     <li>
-       Shark® Stratos™ Upright Vacuum with TruePet® upgrade
-     </li>
-   </ul>
-   
-   <img src="../img/Vector.png" alt="pencil"/>
-   
-   <ul>
-     <li>
-       Subtotal:
-     </li>
-     <li>
-       Taxes:
-     </li>
-     <li>
-       Shipping:
-     </li>
-     <li>
-       Total:
-     </li>
-   </ul>
-   <ul>
-     <li>
-     $499.80
-     </li>
-     <li>
-       $0.00
-       </li>
-       <li>
-         $0.00
-       </li>
-       <li>
-         $499.80
-       </li>
-   </ul>
- </div>
-</div>
-</section>
-
-<!--Footer-->
-
-<footer>
-  <div>
-    <div>
+  
+  <footer class="footer-container footer-background">
+    <div class="footer-sections">
       <ul>
         <li>
-          <h2>Products</h2>
+          <span class="footer-titles">Products</span>
         </li>
+        <br />
         <li>
           <p>Shop all products</p>
-          </li>
-          <li>
+        </li>
+        <li>
           <p>Parts and Accessories</p>
         </li>
         <li>
@@ -113,17 +117,15 @@
           <p>Robot Vacuums</p>
         </li>
       </ul>
-    </div>
-  
-    <div>
       <ul>
         <li>
-          <h2>Support</h2>
+          <span class="footer-titles">Support</span>
         </li>
+        <br />
         <li>
           <p>Support and FAQ's</p>
-          </li>
-          <li>
+        </li>
+        <li>
           <p>Find model number</p>
         </li>
         <li>
@@ -133,15 +135,15 @@
           <p>Order Status</p>
         </li>
       </ul>
-      
       <ul>
         <li>
-          <h2>About SharkNinja</h2>
+          <span class="footer-titles">About SharkNinja</span>
         </li>
+        <br />
         <li>
           <p>Shark brand</p>
-          </li>
-          <li>
+        </li>
+        <li>
           <p>SharkNinja corporate</p>
         </li>
         <li>
@@ -152,21 +154,31 @@
         </li>
       </ul>
     </div>
-    
     <div>
-      <h2>Join the Conversation</h2>
+      <br />
+      <div>
+        <span class="footer-titles">Join the Conversation</span>
+      </div>
+      <br />
+      <div class="horizonal-center">
+        <div class="social-media-container">
+          <img src="./img/🦆 icon _facebook_.png" alt="facebook" />
+          <img src="./img/🦆 icon _instagram_.png" alt="instagram" />
+          <img src="./img/🦆 icon _pinterest square_.png" alt="pinterest" />
+          <img src="./img/🦆 icon _twitter_.png" alt="twitter" />
+          <img src="./img/YouTube.png" alt="Youtube" />
+        </div>
+      </div>
+      <br />
+      <div>
+        <p>Terms of Use | <span class="underline">Privacy Policy</span> | <span class="underline">Exercise My
+            Rights</span> | <span class="underline">Ad and Cookie Notice</span> | <span
+            class="underline">Accessibility</span>Copyright © 2023
+          SharkNinja Operating LLC| <span class="underline">Support</span> | <span class="underline">Contact Us</span>
+        </p>
+      </div>
     </div>
-    <div>
-      <img src="../img/icon_facebook_.png" alt="facebook"/>
-      <img src="../img/icon_instagram_.png" alt="instagram"/>
-      <img src="../img/icon_pinterest square_.png" alt="pinterest"/>
-      <img src="../img/YouTube.png" alt="Youtube"/>
-    </div>
-    <div>
-      <p>Terms of Use | Privacy Policy | Exercise My Rights | Ad and Cookie Notice | AccessibilityCopyright © 2023
-       SharkNinja Operating LLC| Support | Contact Us</p>
-    </div>
-  </div>
   </footer>
 </body>
+
 </html>
