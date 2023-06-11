@@ -870,3 +870,15 @@ li p {
 .checkout-color {
   color: white;
 }
+
+/* =============
+   Thankyou
+============= */
+.thankyou {
+  color: white;
+  background: #0b2d39;
+}
+
+.buttons {
+  background: #2596be;
+}
