@@ -12,7 +12,7 @@
 .footer-container {
   padding: 20px;
   text-align: center;
-  background-color: $seablue;
+  background-color: #145369;
 }
 
 .footer-sections {
@@ -51,4 +51,28 @@ li p {
 
 .underline {
   border-bottom: 1px solid white;
+}
+
+.footer-background {
+  background-color: $greenblue;
+  color: white;
+}
+
+.user-img {
+  border: 1px solid black;
+  width: 50px;
+}
+
+.review-container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-review {
+  padding: 10px;
+  margin: 30px;
+  border: 1px solid white;
+  border-radius: 0px 25px 25px 0px;
 }

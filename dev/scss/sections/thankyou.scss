@@ -2,11 +2,131 @@
    Thankyou
 ============= */
 
+.close-button{
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-size: 30px;
+  font-family: 'Arial Narrow', sans-serif;
+  cursor: pointer;
+}
+   
+.thank-you-title{
+  margin: 0;
+  padding: 50px;
+}
+
+.email-container{
+  border-radius: 10px 10px 0px 0px;
+  padding:30px 50px 30px 50px;
+  border:.1em solid white;
+  width: 55%;
+  margin-bottom: 30px;
+  
+  min-width: 300px;
+}
+
+.email-input {
+  height: 40px;
+  background-color: black;
+  border:.1em solid $orange;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.email-input::placeholder{
+  color: white;
+}
+
+.submit-button {
+  height: 40px;
+  background-color: $skyblue;
+  text-align: center;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.submit-button a{
+  color:white;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.transaction-container {
+  display: grid;
+  grid-template-columns: 150px auto;
+  border-radius: 10px;
+  padding:30px 50px 30px 50px;
+  gap: 20px;
+  border:.1em solid white;
+  width: 55%;
+  margin-bottom: 30px;
+  min-width: 300px;
+}
+
+@media only screen and (max-width: 900px) {
+  .transaction-container {
+    grid-template-columns: 100%;
+  }
+
+  .transaction-title{
+    min-width: 300px;
+  }
+
+  .transaction-info{
+    min-width: 300px;
+  }
+}
+
+.transaction-title{
+  height: 40px;
+  background-color: black;
+  border:.1em solid $orange;
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+.transaction-info {
+  height: 40px;
+  background-color: black;
+  border:.1em solid $orange;
+  text-align: center;
+  margin-right: 20px;
+  padding: 0px 10px 0px 10px;
+}
+
+.continue-shopping-button {
+  height: 40px;
+  background-color: $skyblue;
+  text-align: center;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.continue-shopping-button a{
+  color:white;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.continue-button-container{
+
+  text-align: right;
+  margin-bottom: 30px;
+  min-width: 65%;
+}
+
 .thankyou {
-color: white;
-background: #0b2d39;
+  color: white;
+  background:$foam;
 }
 
 .buttons {
-  background: $skyblue;
+  background:$skyblue;
 }

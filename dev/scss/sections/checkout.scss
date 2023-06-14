@@ -3,10 +3,111 @@
 ============= */
 
 .checkout-grid {
-  display:grid;
-  grid-template-columns: 50%  50%;
-  background-color: $greenblue;
+  display: grid;
+  grid-template-columns: 60% 25%;
+  background-color: #0b2d39;
 }
+
 .checkout-color {
   color: white;
+}
+
+.checkout-inputs-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top:30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-areas: 
+  "one one one one one one one"
+  "two two two three three three three"
+  "four four five five six seven seven"
+  "eight eight eight eight eight eight eight"
+  "nine nine nine ten ten ten ten"
+  "eleven eleven eleven eleven eleven eleven eleven"
+  "twelve twelve twelve twelve twelve twelve twelve"
+  "thirteen thirteen thirteen thirteen thirteen thirteen thirteen";
+}
+
+.name-on-card-input {
+  grid-area: one;
+}
+
+.credit-card-number-label {
+  grid-area: two;
+}
+
+.credit-card-number-input {
+  grid-area: three;
+}
+
+.expiration-date-label {
+  grid-area: four;
+}
+
+.expiration-date-input {
+  grid-area: five;
+}
+
+.cvv-label {
+  grid-area: six;
+}
+
+.cvv-input {
+  grid-area: seven;
+}
+
+.empty-row {
+  grid-area: eight;
+}
+
+.first-name-input {
+  grid-area: nine;
+}
+
+.last-name-input {
+  grid-area: ten;
+}
+
+.checkout-email-input {
+  grid-area: eleven;
+}
+
+.address-input {
+  grid-area: twelve;
+}
+
+.zipcode-input {
+  grid-area: thirteen;
+}
+
+.label-field {
+  padding: 10px;
+  border: .1em solid orange;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.input-field {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-field::placeholder {
+  text-align: center;
+}
+
+.checkout-submit-button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: lightblue;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.overview-container{
+  border: .1em solid orange;
+  border-radius: 10px;
+  padding: 10px;
 }
